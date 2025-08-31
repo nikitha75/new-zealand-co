@@ -39,7 +39,7 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <div className="hero-section flex flex-col xl:flex xl:flex-row xl:gap-x-8">
+      <div className="hero-section flex flex-col lg:flex lg:flex-row lg:gap-x-8 xl:flex xl:flex-row xl:gap-x-8">
         <div>
           <div className="flex">
             <button className="self-center">
@@ -52,7 +52,7 @@ const App = () => {
               <img src={nextSlideBtn} alt="next button" />
             </button>
           </div>
-          <div className="hidden xl:flex xl:gap-2 xl:flex-wrap xl:w-[590px]">
+          <div className="hidden lg:flex lg:gap-2 lg:flex-wrap lg:w-[590px] xl:flex xl:gap-2 xl:flex-wrap xl:w-[590px]">
             <div>
               <img src={product1} alt="product" />
             </div>
@@ -76,7 +76,7 @@ const App = () => {
             </div>
           </div>
         </div>
-        <div className="xl:w-[50%]">
+        <div className="lg:w-[50%] xl:w-[50%]">
           <h1 className="product-title">
             Manuka Honey UMF<sup className="product-title-sup">TM</sup>{" "}
             <span>24+</span> MGO <span>1122+</span>
@@ -87,9 +87,11 @@ const App = () => {
             </span>
             <span>What is UMF and MGO?</span>
           </button>
-          <div className="mt-10 flex flex-col gap-y-4 xl:flex xl:flex-row xl:gap-y-0 xl:justify-between">
-            <div className="text-center xl:text-left">The Optimiser</div>
-            <div className="flex flex-col xl:flex xl:flex-row gap-x-4 items-center">
+          <div className="mt-10 flex flex-col gap-y-4 lg:flex lg:flex-row lg:gap-y-0 lg:justify-between xl:flex xl:flex-row xl:gap-y-0 xl:justify-between">
+            <div className="text-center lg:text-left xl:text-left">
+              The Optimiser
+            </div>
+            <div className="flex flex-col lg:flex lg:flex-row xl:flex xl:flex-row gap-x-4 items-center">
               <div className="flex gap-1">
                 <FaHeart color="#f0b933" />
                 <FaHeart color="#f0b933" />
@@ -129,7 +131,7 @@ const App = () => {
           <div className="mt-8">
             <div>Size (Select One)</div>
             <div className="mt-2">Variant: 125g | 4.4oz</div>
-            <div className="mt-6 flex gap-4 xl:flex-wrap">
+            <div className="mt-6 flex gap-4 lg:flex-wrap xl:flex-wrap">
               <div>
                 <img src={labelPaints1} alt="label paints" />
               </div>
@@ -152,8 +154,8 @@ const App = () => {
           </div>
           <div className="mt-10">
             <div>PAYMENT OPTIONS (SELECT ONE)</div>
-            <div className="mt-4 bg-[#F2F2F2] w-[280px] xl:w-full px-6 py-8 rounded-xl">
-              <div className="bg-[#F2F2F2] flex flex-col xl:flex xl:flex-row xl:justify-between">
+            <div className="mt-4 bg-[#F2F2F2] w-[280px] lg:w-full xl:w-full px-6 py-8 rounded-xl">
+              <div className="bg-[#F2F2F2] flex flex-col lg:flex lg:flex-row lg:justify-between xl:flex xl:flex-row xl:justify-between">
                 <button className="bg-[#F1B434] w-[250px] h-[50px]  xl:w-[287px] xl:h-[64px] text-white text-center rounded-full p-4 flex justify-around items-center">
                   <div className="w-[100px] bg-[#F1B434]">
                     One-time purchase
@@ -178,7 +180,7 @@ const App = () => {
             </div>
             <div className="mt-12">
               <div>SELECT QUANTITY</div>
-              <div className="mt-2 flex flex-col xl:flex xl:flex-row xl:justify-between">
+              <div className="mt-2 flex flex-col lg:flex lg:flex-row lg:justify-between xl:flex xl:flex-row xl:justify-between">
                 <button className="bg-[#F1B434] w-[195px] h-[47px] text-white text-center rounded-full p-4 flex justify-around items-center">
                   <div className="bg-[#F1B434]">-</div>
                   <div className="bg-[#F1B434]">1</div>
@@ -193,8 +195,8 @@ const App = () => {
               <h2 className="bg-[#F2F2F2] text-center text-lg font-semibold">
                 Beauty Bundle
               </h2>
-              <div className="mt-4 flex flex-col xl:flex xl:flex-row xl:gap-x-4 bg-[#F2F2F2]">
-                <div className="flex flex-col xl:flex xl:flex-row items-center gap-2 bg-[#F2F2F2] ">
+              <div className="mt-4 flex flex-col lg:flex lg:flex-row lg:gap-x-4 xl:flex xl:flex-row xl:gap-x-4 bg-[#F2F2F2]">
+                <div className="flex flex-col lg:flex lg:flex-row xl:flex xl:flex-row items-center gap-2 bg-[#F2F2F2] ">
                   <div className="bg-[#F2F2F2]">
                     <div className="bg-[#F2F2F2]">
                       <img
@@ -252,7 +254,7 @@ const App = () => {
                     </button>
                   </div>
                 </div>
-                <div className="mt-6 xl:mt-0 bg-[#F2F2F2] flex flex-col gap-y-2 justify-center">
+                <div className="mt-6 lg:mt-0 xl:mt-0 bg-[#F2F2F2] flex flex-col gap-y-2 justify-center">
                   <div className="bg-[#F2F2F2] text-sm text-center">
                     <span className="line-through text-[#313131] text-xs">
                       $478.75 USD
@@ -307,7 +309,7 @@ const App = () => {
           <div className="my-6 w-full h-[2px] bg-black"></div>
           <div className="mt-4">
             <div>UMF™ SCALE</div>
-            <div className="mt-2 flex flex-col xl:flex xl:flex-row xl:gap-x-2 text-sm text-[#313131]">
+            <div className="mt-2 flex flex-col lg:flex lg:flex-row lg:gap-x-2 xl:flex xl:flex-row xl:gap-x-2 text-sm text-[#313131]">
               <div className="py-2 border-b border-[#E87722] inline-block">
                 UMF™ 10+
               </div>
